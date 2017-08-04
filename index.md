@@ -15,25 +15,26 @@
    
    agar kita dapat menggambar(render) scene (event/kejadian) dengan camera tersebut.
 ```markdown
-   <html>
-    <head>
-     <title> My first three.js app </title>
-     <style>
-      body{margin: 0}
-      canvas{width: 100%; height: 100%}
-     </style>
-    </head>
+<html>
+ <head>
+  <title> My first three.js app </title>
+  <style>
+   body{margin: 0}
+   canvas{width: 100%; height: 100%}
+  </style>
+ </head>
 
-   <body>
-    <script src ="three.js"> </script>
+<body>
+<script src ="three.js"> </script>
 
-    <script>
-     var scene    = new THREE.Scene()
-var camera   = new THREE.PerspectiveCamera(25, window.innerWidth/window.innerHeight, 0.1, 1000)
-     var renderer = new THREE.WebGLRenderer()
+<script>
+var scene   = new THREE.Scene()
+var camera  = new THREE.PerspectiveCamera(25, window.innerWidth/window.innerHeight, 0.1, 1000)
+var renderer= new THREE.WebGLRenderer()
    
      renderer.setSize(window.innerWidth, window.innerHeight)
-     document.body.appendChild(renderer.domElement)```
+     document.body.appendChild(renderer.domElement)
+```
    Ada beberapa jenis view camera di dalam three.js. Salah satunya adalah PerspectiveCamera. Parameternya adalah
 
    a. 25 = the field of view (luas pemandangan). Angka semakin kecil, akan semakin zoom in.
