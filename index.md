@@ -8,12 +8,13 @@
 ## Membuat scene
 
    Untuk dapat menampilkan apapun dengan threejs, kita butuh 3 hal :
-  1. sebuah scene (adegan/kejadian/event)
+   1. sebuah scene (adegan/kejadian/event)
    2. sebuah camera
    3. sebuah renderer (penggambar)
    
    agar kita dapat menggambar(render) scene (event/kejadian) dengan camera tersebut.
 
+```markdown
 <html>
  <head>
   <title> My first three.js app </title>
