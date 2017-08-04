@@ -14,7 +14,7 @@
    3. sebuah renderer (penggambar)
    
    agar kita dapat menggambar(render) scene (event/kejadian) dengan camera tersebut.
-   ```markdown
+```markdown
    <html>
     <head>
      <title> My first three.js app </title>
@@ -29,12 +29,11 @@
 
     <script>
      var scene    = new THREE.Scene()
-   var camera   = new THREE.PerspectiveCamera(25, window.innerWidth / window.innerHeight, 0.1, 1000)
+var camera   = new THREE.PerspectiveCamera(25, window.innerWidth / window.innerHeight, 0.1, 1000)
      var renderer = new THREE.WebGLRenderer()
    
      renderer.setSize(window.innerWidth, window.innerHeight)
      document.body.appendChild(renderer.domElement)
-   </script>
    ```
    Ada beberapa jenis view camera di dalam three.js. Salah satunya adalah PerspectiveCamera. Parameternya adalah
 
@@ -75,7 +74,7 @@
    ```
 [Dokumentasi](https://threejs.org/docs/index.html#manual/introduction/Creating-a-scene)
 
-You can use the [editor on GitHub](https://github.com/nengkya/nengkya.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+[Edit Blog](https://github.com/nengkya/nengkya.github.io/edit/master/index.md)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
