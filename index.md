@@ -34,7 +34,7 @@ var camera   = new THREE.PerspectiveCamera(25, window.innerWidth / window.innerH
    
      renderer.setSize(window.innerWidth, window.innerHeight)
      document.body.appendChild(renderer.domElement)
-   ```
+```
    Ada beberapa jenis view camera di dalam three.js. Salah satunya adalah PerspectiveCamera. Parameternya adalah
 
    a. 25 = the field of view (luas pemandangan). Angka semakin kecil, akan semakin zoom in.
