@@ -14,6 +14,26 @@
    
    agar kita dapat menggambar(render) scene (event/kejadian) dengan camera tersebut.
 
+<html>
+ <head>
+  <title> My first three.js app </title>
+  <style>
+   body{margin: 0}
+   canvas{width: 100%; height: 100%}
+  </style>
+ </head>
+
+ <body>
+  <script src = "three.js"> </script>
+
+  <script>
+   var scene    = new THREE.Scene()
+   var camera   = new THREE.PerspectiveCamera(25, window.innerWidth / window.innerHeight, 0.1, 1000)
+   var renderer = new THREE.WebGLRenderer()
+
+
+
+
 You can use the [editor on GitHub](https://github.com/nengkya/nengkya.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
