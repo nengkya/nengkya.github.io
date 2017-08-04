@@ -25,7 +25,7 @@
     </head>
 
    <body>
-    <script src = "three.js"> </script>
+    <script src ="three.js"> </script>
 
     <script>
      var scene    = new THREE.Scene()
@@ -34,6 +34,7 @@
    
      renderer.setSize(window.innerWidth, window.innerHeight)
      document.body.appendChild(renderer.domElement)
+   </script>
    ```
    Ada beberapa jenis view camera di dalam three.js. Salah satunya adalah PerspectiveCamera. Parameternya adalah
 
