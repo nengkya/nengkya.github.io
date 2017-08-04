@@ -1,6 +1,16 @@
 # ThreeJs Game Engine
 
-dsdsdsdYou can use the [editor on GitHub](https://github.com/nengkya/nengkya.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Instalasi
+Download dan extract threejs game engine dari website resmi di  https://threejs.org/ 
+
+2. Copas file https://threejs.org/build/three.js  dan taro satu folder pada script html / js yang nanti akan kamu buat.
+
+3. Membuat scene
+
+   Untuk dapat menampilkan apapun dengan threejs, kita butuh 3 hal: sebuah scene (adegan/
+kejadian/event), sebuah camera, dan sebuah renderer (penggambar) agar kita dapat menggambar(render) scene (event/kejadian) dengan camera tersebut.
+
+You can use the [editor on GitHub](https://github.com/nengkya/nengkya.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
