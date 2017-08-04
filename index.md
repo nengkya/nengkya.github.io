@@ -14,7 +14,7 @@
    
    agar kita dapat menggambar(render) scene (event/kejadian) dengan camera tersebut.
 
-```markdown
+   ```markdown
 <html>
  <head>
   <title> My first three.js app </title>
@@ -32,6 +32,15 @@
    var camera   = new THREE.PerspectiveCamera(25, window.innerWidth / window.innerHeight, 0.1, 1000)
    var renderer = new THREE.WebGLRenderer()
    ```
+
+Ada beberapa jenis view camera di dalam three.js. Salah satunya PerspectiveCamera.
+
+a. 75 = the field of view (luas pemandangan). Angka semakin kecil, akan semakin zoom in.
+
+b. Attribute ke-2 adalah aspect ratio, rasio aspek antara lebar screen dibagi dengan tinggi screen. Agar tampilan tidak lonjong/gepeng wide screen.
+
+c. The next two attributes are the near and far clipping plane. What that means, is that objects further away from the camera than the value of far or closer than near won't be rendered. You don't have to worry about this now, but you may want to use other values in your apps to get better performance.
+
 
 
 
