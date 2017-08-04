@@ -1,8 +1,9 @@
 # ThreeJs Game Engine
 
-## Instalasi
-   1. Download dan extract threejs game engine dari website resmi di  https://threejs.org/ 
 
+## Instalasi
+
+   1. Download dan extract threejs game engine dari website resmi di  https://threejs.org/ 
    2. Copas file https://threejs.org/build/three.js dan taro satu folder pada script html / js yang nanti akan kamu buat.
 
 ## Membuat scene
@@ -13,7 +14,6 @@
    3. sebuah renderer (penggambar)
    
    agar kita dapat menggambar(render) scene (event/kejadian) dengan camera tersebut.
-
    ```markdown
 <html>
  <head>
@@ -32,7 +32,6 @@
    var camera   = new THREE.PerspectiveCamera(25, window.innerWidth / window.innerHeight, 0.1, 1000)
    var renderer = new THREE.WebGLRenderer()
    ```
-
 Ada beberapa jenis view camera di dalam three.js. Salah satunya adalah PerspectiveCamera. Parameternya adalah
 
 a. 25 = the field of view (luas pemandangan). Angka semakin kecil, akan semakin zoom in.
@@ -41,7 +40,7 @@ b. Attribute ke-2 adalah aspect ratio, rasio aspek antara lebar screen dibagi de
 
 c. The next two attributes are the near and far clipping plane. What that means, is that objects further away from the camera than the value of far or closer than near won't be rendered. You don't have to worry about this now, but you may want to use other values in your apps to get better performance.
 
-
+# Mempersiapkan object cubus berputar spinning
 
 
 
