@@ -30,7 +30,8 @@
     <script>
      var scene    = new THREE.Scene()
      var camera   = new THREE.PerspectiveCamera(25, window.innerWidth / window.innerHeight, 0.1, 1000)
-     var renderer = new THREE.WebGLRenderer()   
+     var renderer = new THREE.WebGLRenderer()
+   
      renderer.setSize( window.innerWidth, window.innerHeight );
      document.body.appendChild( renderer.domElement );
    ```
@@ -57,14 +58,20 @@
     
    Untuk membuat kubus, kita perlu object BoxGeometry(panjang, lebar, tinggi).
 
-## Rendering (menggambar) scene/kejadian/event
+### Rendering (menggambar) scene/kejadian/event
 
-
-
-
-
-
-
+   Script di atas belum menggambar apa-apa, maka diperlukan fungsi menggambar (render) atau perulangan animasi :
+   ```markdown
+   function animate()
+    {
+     requestAnimationFrame(animate)
+     renderer.render(scene, camera)
+    }
+   animate()
+   
+     cube.rotation.x += 0.1
+     cube.rotation.y += 0.1
+   ```
 
 
 You can use the [editor on GitHub](https://github.com/nengkya/nengkya.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
