@@ -69,7 +69,7 @@ var renderer= new THREE.WebGLRenderer()
     }
    animate()
    
-     cube.rotation.x += 0.1
+     cube.rotation.x -= 0.1
      cube.rotation.y += 0.1
    ```
 [Dokumentasi](https://threejs.org/docs/index.html#manual/introduction/Creating-a-scene)
