@@ -8,8 +8,11 @@
 ## Membuat scene
 
    Untuk dapat menampilkan apapun dengan threejs, kita butuh 3 hal :
-   1. sebuah scene (adegan/
-kejadian/event), sebuah camera, dan sebuah renderer (penggambar) agar kita dapat menggambar(render) scene (event/kejadian) dengan camera tersebut.
+  1. sebuah scene (adegan/kejadian/event)
+   2. sebuah camera
+   3. sebuah renderer (penggambar)
+   
+   agar kita dapat menggambar(render) scene (event/kejadian) dengan camera tersebut.
 
 You can use the [editor on GitHub](https://github.com/nengkya/nengkya.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
