@@ -40,7 +40,7 @@ b. Attribute ke-2 adalah aspect ratio, rasio aspek antara lebar screen dibagi de
 
 c. The next two attributes are the near and far clipping plane. What that means, is that objects further away from the camera than the value of far or closer than near won't be rendered. You don't have to worry about this now, but you may want to use other values in your apps to get better performance.
 
-# Mempersiapkan object cubus berputar spinning
+## Mempersiapkan object cubus berputar spinning
 
 
 
