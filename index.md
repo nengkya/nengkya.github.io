@@ -32,8 +32,8 @@
      var camera   = new THREE.PerspectiveCamera(25, window.innerWidth / window.innerHeight, 0.1, 1000)
      var renderer = new THREE.WebGLRenderer()
    
-     renderer.setSize( window.innerWidth, window.innerHeight );
-     document.body.appendChild( renderer.domElement );
+     renderer.setSize(window.innerWidth, window.innerHeight)
+     document.body.appendChild(renderer.domElement)
    ```
    Ada beberapa jenis view camera di dalam three.js. Salah satunya adalah PerspectiveCamera. Parameternya adalah
 
@@ -72,7 +72,7 @@
      cube.rotation.x += 0.1
      cube.rotation.y += 0.1
    ```
-
+[Dokumentasi](https://threejs.org/docs/index.html#manual/introduction/Creating-a-scene)
 
 You can use the [editor on GitHub](https://github.com/nengkya/nengkya.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
