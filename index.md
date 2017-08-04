@@ -1,11 +1,11 @@
 # ThreeJs Game Engine
 
 ## Instalasi
-Download dan extract threejs game engine dari website resmi di  https://threejs.org/ 
+1. Download dan extract threejs game engine dari website resmi di  https://threejs.org/ 
 
-2. Copas file https://threejs.org/build/three.js  dan taro satu folder pada script html / js yang nanti akan kamu buat.
+2. Copas file https://threejs.org/build/three.js dan taro satu folder pada script html / js yang nanti akan kamu buat.
 
-3. Membuat scene
+## Membuat scene
 
    Untuk dapat menampilkan apapun dengan threejs, kita butuh 3 hal: sebuah scene (adegan/
 kejadian/event), sebuah camera, dan sebuah renderer (penggambar) agar kita dapat menggambar(render) scene (event/kejadian) dengan camera tersebut.
