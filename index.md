@@ -33,9 +33,9 @@
    var renderer = new THREE.WebGLRenderer()
    ```
 
-Ada beberapa jenis view camera di dalam three.js. Salah satunya PerspectiveCamera.
+Ada beberapa jenis view camera di dalam three.js. Salah satunya adalah PerspectiveCamera. Parameternya adalah
 
-a. 75 = the field of view (luas pemandangan). Angka semakin kecil, akan semakin zoom in.
+a. 25 = the field of view (luas pemandangan). Angka semakin kecil, akan semakin zoom in.
 
 b. Attribute ke-2 adalah aspect ratio, rasio aspek antara lebar screen dibagi dengan tinggi screen. Agar tampilan tidak lonjong/gepeng wide screen.
 
