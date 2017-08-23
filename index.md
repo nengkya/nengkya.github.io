@@ -72,7 +72,7 @@
      cube.rotation.x -= 0.1
      cube.rotation.y += 0.1
    ```
-[Dokumentasi](https://threejs.org/docs/index.html#manual/introduction/Creating-a-scene)
+[Dokumentasi ThreeJs](https://threejs.org/docs/index.html#manual/introduction/Creating-a-scene)
 
 [Edit Blog](https://github.com/nengkya/nengkya.github.io/edit/master/index.md)
 
